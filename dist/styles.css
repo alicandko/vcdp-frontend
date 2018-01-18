@@ -1,0 +1,73 @@
+/* some basic styles for the app */
+.form-container {
+  margin: 0 auto;
+}
+
+.err-msg {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 450px;
+}
+
+.dataset-create-form {
+  margin-bottom: 1rem;
+}
+
+.dataset-create-form button {
+  margin: 1rem 0;
+  float: right;
+}
+
+.dataset-create-form input {
+}
+
+.search-form button {
+  margin-left: 1rem;
+}
+
+.search-form input {
+}
+
+.player-form button {
+  margin-left: 1rem;
+}
+
+.player-form input {
+}
+
+.label-form button {
+  margin-left: 1rem;
+}
+
+.label-form input {
+}
+
+.prepare-validate-formg button {
+  margin-right: 1rem;
+}
+
+
+/* bootstrap overrides */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,.15);
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+.btnMarginRight {
+  margin-right: 1rem;
+}
+
+/* Tablet+ displays */
+@media only screen and (min-width: 768px) {
+  .dataset-create-form {
+    float: right;
+  }
+
+  .dataset-create-form button {
+    margin: 0 0 0 1rem;
+    float: none;
+  }
+}
